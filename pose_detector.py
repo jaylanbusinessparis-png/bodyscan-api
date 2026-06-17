@@ -9,6 +9,8 @@ from __future__ import annotations
 
 import cv2
 import mediapipe as mp
+from mediapipe.python.solutions import pose as mp_pose
+
 import numpy as np
 from dataclasses import dataclass, field
 from typing import Dict, Optional, Tuple
@@ -77,7 +79,7 @@ class PoseDetector:
     """
 
     def __init__(self, model_complexity: int = 2) -> None:
-        self._mp_pose = mp.solutions.pose
+        self._mp_pose = mp_pose
         self._pose = self._mp_pose.Pose(
             static_image_mode=True,
             model_complexity=model_complexity,
