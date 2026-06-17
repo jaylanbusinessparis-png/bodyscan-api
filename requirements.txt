@@ -1,4 +1,4 @@
-mediapipe==0.10.14
+mediapipe
 numpy==1.26.4
 xgboost==2.1.1
 scikit-learn==1.5.2
@@ -15,4 +15,5 @@ uvicorn[standard]==0.31.0
 python-multipart==0.0.12
 Pillow==10.4.0
 pydantic==2.9.2
+opencv-python-headless
 
