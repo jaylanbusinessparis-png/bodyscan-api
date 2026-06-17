@@ -1,19 +1,14 @@
-mediapipe
-numpy==1.26.4
-xgboost==2.1.1
-scikit-learn==1.5.2
-joblib==1.4.2
 fastapi==0.115.0
 uvicorn[standard]==0.31.0
 python-multipart==0.0.12
-Pillow==10.4.0
 pydantic==2.9.2
-mediapipe==0.10.35
-numpy==1.26.4
-xgboost==2.1.1
-uvicorn[standard]==0.31.0
-python-multipart==0.0.12
-Pillow==10.4.0
-pydantic==2.9.2
+
+mediapipe==0.10.11
 opencv-python-headless
 
+numpy==1.26.4
+scikit-learn==1.5.2
+xgboost==2.1.1
+joblib==1.4.2
+
+Pillow==10.4.0
